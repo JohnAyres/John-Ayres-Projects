@@ -2,24 +2,24 @@ import pandas as pd
 
 
 ######################################################## PATHS ########################################################
-si7_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\7-SI.csv'
-si13_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\13-SI.csv'
-on7_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\7-ON.csv'
-on13_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\13-ON.csv'
-sv7_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\7-SV.csv'
-sv13_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\13-SV.csv'
+si7_p = r'PATH.csv'
+si13_p = r'PATH.csv'
+on7_p = r'PATH.csv'
+on13_p = r'PATH.csv'
+sv7_p = r'PATH.csv'
+sv13_p = r'PATH.csv'
 
-si7_inv_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\7-SI-Inv.xls'
-si13_inv_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\13-SI-Inv.xls'
-on7_inv_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\7-ON-Inv.xls'
-on13_inv_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\13-ON-Inv.xls'
-sv7_inv_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\7-SV-Inv.xls'
-sv13_inv_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\Raw Files\13-SV-Inv.xls'
+si7_inv_p = r'PATH.xls'
+si13_inv_p = r'PATH.xls'
+on7_inv_p = r'PATH.xls'
+on13_inv_p = r'PATH.xls'
+sv7_inv_p = r'PATH.xls'
+sv13_inv_p = r'PATH.xls'
 
-iv_rep = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\05 - INVENTORY\Inventory Report - For Audit - June 20, 2022.xlsx'
+iv_rep = r'PATH.xlsx'
 
 #### CHANGE DATE TO TODAY
-save_Loc = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\US, CA WHSE Sales and OH 06.24.22.xlsx'
+save_Loc = r'PATH.xlsx'
 
 
 ################################################## CREATE DATA FRAMES ##################################################
