@@ -7,4 +7,3 @@ Report Automation.py:
   
   -Source information taken from a non-queryable database(legacy)
   
-  -File paths omitted as protected information
