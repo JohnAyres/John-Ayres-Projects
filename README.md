@@ -1,7 +1,7 @@
 # John-Ayres-Projects
 Resume Projects of John Ayres
 
-US,CA WHSE Sales and OH.py:
+US,CA WHSE Sales and OH:
 
   -Project from Enchante Living, Report automates warehouse sales and overhead totals
   
