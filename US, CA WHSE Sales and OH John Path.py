@@ -1,5 +1,5 @@
 # Authors: John Ayres, Joshua Kemperman
-# Desc: Script to process INV/Sales, and Summary containing all INV/Sales JOHN PATH IN PROGRESS, ADDING FUNCTIONALITY
+# Desc: Script to process INV/Sales, and Summary containing all INV/Sales
 # PARAM: Input files as listed under pathing; Warehouse INV/OHS by data group and INV Report
 # OUTPUT: Multipage excel Document, listing total INV/OHS by warehouse, Sheets containing totals of INV/OHS
 
