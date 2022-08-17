@@ -1,7 +1,12 @@
-# Authors: John Ayres, Joshua Kemperman
-# Desc: Script to process INV/Sales, and Summary containing all INV/Sales
-# PARAM: Input files as listed under pathing; Warehouse INV/OHS by data group and INV Report
-# OUTPUT: Multipage excel Document, listing total INV/OHS by warehouse, Sheets containing totals of INV/OHS
+"""
+Authors: John Ayres, Joshua Kemperman
+
+Desc: Script to process INV/Sales by month by WH, and Summary containing all INV/Sales by month/WH
+
+PARAM: Input files as listed under pathing; Warehouse INV/OHS by data group and INV Report
+
+OUTPUT: Multipage excel Document, listing total INV/OHS by warehouse, Sheets containing totals of INV/OHS
+"""
 
 import pandas as pd
 
@@ -23,7 +28,7 @@ sv13_inv_p = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint
 iv_rep = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\05 - INVENTORY\Inventory Report_July 11, 2022.xlsx'
 
 #### CHANGE DATE TO TODAY
-save_Loc = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\US, CA WHSE Sales and OH TODAYTEST.xlsx'
+save_Loc = r'C:\Users\John Ayres\OneDrive - Enchante Living\Documents\39 Joint Project\US, CA WHSE Sales and OH TODAY.xlsx'
 
 
 ################################################## CREATE DATA FRAMES ##################################################
