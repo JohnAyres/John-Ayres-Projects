@@ -1,7 +1,13 @@
-# Authors: John Ayres
-# Desc: identifies freight cost outliers through a normalized z-score. data is log normal.
-# PARAM: Inventory Report.xlsx
-# OUT: xlsx file cleanly listing PO's and relative information in their own cell
+"""
+Authors: John Ayres
+
+Desc: identifies freight cost outliers through a normalized z-score. data is log normal.
+
+PARAM: Inventory Report.xlsx
+
+OUT: xlsx file cleanly listing PO's and relative information in their own cell
+"""
+
 import pandas as pd
 import numpy as np
 
@@ -187,6 +193,12 @@ outlier = pd.concat([outlier, vlig[vlig["Outlier"] == "True"]], ignore_index=Tru
 outlier = pd.concat([outlier, whar[whar["Outlier"] == "True"]], ignore_index=True)
 outlier = pd.concat([outlier, wsco[wsco["Outlier"] == "True"]], ignore_index=True)
 
+
+################################################ Inverse Transformation ################################################
+
+outlier["Ocean Freight Cost"] = np.exp(outlier["Ocean Freight Cost"])
+
+
 ##################################################### FILE OUTPUTS #####################################################
 
 fileName = pd.ExcelWriter(save_Loc, engine='xlsxwriter')
@@ -195,3 +207,33 @@ outlier.to_excel(fileName, sheet_name='Outliers', index=False)
 inv.to_excel(fileName, sheet_name='Inventory Report', index=False)
 
 fileName.save()
+
+
+# So i dont have to type a bunch
+# basi
+# bacc
+# bfau
+# chan
+# disp
+# flam
+# flus
+# isli
+# kfac
+# ksin
+# kwar
+# mirr
+# olig
+# pend
+# repp
+# scur
+# sdor
+# sfau
+# shea
+# tlam
+# toil
+# tlig
+# ucab
+# vani
+# vlig
+# whar
+# wsco
